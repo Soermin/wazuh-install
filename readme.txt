@@ -1,1 +1,1 @@
-Coba commit pertama
+Wazuh Install Guide
