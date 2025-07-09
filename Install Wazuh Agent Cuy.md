@@ -54,5 +54,14 @@ sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
 ```
 
+## 🔎 Saran Eksplorasi Lanjutan
+Setelah berhasil menginstall dan menghubungkan Wazuh Agent ke Server, ada beberapa rekomendasi explorasi yang dapat dilakukan :
+- **Explore File Inegrity Monitoring**
+- **Pantau Aktivitas Login**
+- **Explore Konfigurasi Agent**
+- **Lihat data agent pada Wazuh Dashboard**
+
+Untuk lebih lengkap, anda dapat explore lebih dalam di Dokumentasi Wazuh resmi https://documentation.wazuh.com/
+
 
 
