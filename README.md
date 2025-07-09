@@ -7,8 +7,19 @@ Wazuh merupakan platform keamanan siber dengan sumber terbuka atau open source y
 Meskipun gratis, Wazuh menjadi salah satu platform keamanan yang patut dipertimbangkan. Salah satu alasannya adalah: 
 - **Skalabilitas Tinggi :** Cocok untuk mengelola banyak agent (endpoint) dengan performa yang sangat efisien
 - **Integrasi yang Fleksibel :** Mudah diintegrasikan dengan tools keamanan siber lainnya untuk memperkuat layer keaman Tim SOC.
-- **Open Source :** Wazuh dapat digunakan tanpa biaya lisensi, menjadi pilihan oleh banyak pengguna karena sangat lengkap dan tidak perlu mengeluarkan biaya yang tinggi.
+- **Open Source :** Wazu#h dapat digunakan tanpa biaya lisensi, menjadi pilihan oleh banyak pengguna karena sangat lengkap dan tidak perlu mengeluarkan biaya yang tinggi.
 
+
+# 🖥️ Spesifikasi Hardware Minimum:
+- **CPU :** 2 core
+- **RAM :** 4 GB
+- **Storage :** 20 GB
+
+Jika ada kendala, pastikan untuk selalu :
+- Membaca/mengakses dokumentasi resmi : https://documentation.wazuh.com/
+- Periksa Konfigurasi File Log (_/var/ossec/etc/ossec.conf_)
+
+Terima kasih telah menggunakan panduan ini. Semoga bermanfaat! 🙌
 
 
 
