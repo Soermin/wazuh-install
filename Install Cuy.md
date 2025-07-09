@@ -33,5 +33,12 @@ Buka browser dan akses melalui :
 https://<ip-address-wazuh-server>
 ```
 
+## 💡 Tips Tambahan:
+Setelah berhasil menginstall Wazuh anda bisa mengganti password kredensial dengan perintah berikut :
+```
+/usr/share/wazuh-dashboard/plugins/wazuh/wazuh-passwords-tool.sh
+```
+
+
 
 
