@@ -35,7 +35,9 @@ sed -i "s/^deb/#deb/" /etc/apt/sources.list.d/wazuh.list
 
 ## Install via Wazuh Dashboard
 Pada Wazuh Dashboard terdapat fitur Agent Summary, namun pada tampilan awal pastinya belum ada endpoint. Dapat klik **_Deploy New Agent_**. Harusnya mengarah ke menu berikut :
+
 ![image 165](https://github.com/user-attachments/assets/caeca90f-190e-4a6c-9f27-d8af319684b8)
+
 Metode ini lebih mudah dibandingkan manual karena hanya menjalankan script yang akan diberikan sesuai OS yang akan kita pasangkan Wazuh Agent. 
 - **Pilih OS & Arsitektur device yang ingin dipasangkan Wazuh Agent**
 - **Masukkan IP dari Wazuh Manager**
