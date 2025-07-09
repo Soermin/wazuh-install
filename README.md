@@ -15,7 +15,7 @@ Meskipun gratis, Wazuh menjadi salah satu platform keamanan yang patut dipertimb
 - **RAM :** 4 GB
 - **Storage :** 20 GB
 
---
+
 Jika ada kendala, pastikan untuk selalu membaca/mengakses dokumentasi resmi : https://documentation.wazuh.com/
 
 Terima kasih telah menggunakan panduan ini. Semoga bermanfaat! 🙌
