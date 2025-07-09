@@ -1,1 +1,0 @@
-Wazuh Install Guide
