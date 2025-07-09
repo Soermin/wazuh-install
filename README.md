@@ -7,5 +7,6 @@ Meskipun gratis, Wazuh menjadi salah satu platform keamanan yang patut dipertimb
 - **Open Source :** Wazuh dapat digunakan tanpa biaya lisensi, menjadi pilihan oleh banyak pengguna karena sangat lengkap dan tidak perlu mengeluarkan biaya yang tinggi.
 
 
+
 ![image](https://github.com/user-attachments/assets/f4350813-2df5-4977-af30-f03e1cb9e3ea)
 
