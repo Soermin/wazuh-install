@@ -33,5 +33,24 @@ Disarankan untuk menonaktifkan update otomatis dari Wazuh Agent untuk menghindar
 sed -i "s/^deb/#deb/" /etc/apt/sources.list.d/wazuh.list
 ```
 
+## Install via Wazuh Dashboard
+Pada Wazuh Dashboard terdapat fitur Agent Summary, namun pada tampilan awal pastinya belum ada endpoint. Dapat klik **_Deploy New Agent_**. Harusnya mengarah ke menu berikut :
+![image 165](https://github.com/user-attachments/assets/caeca90f-190e-4a6c-9f27-d8af319684b8)
+Metode ini lebih mudah dibandingkan manual karena hanya menjalankan script yang akan diberikan sesuai OS yang akan kita pasangkan Wazuh Agent. 
+- **Pilih OS & Arsitektur device yang ingin dipasangkan Wazuh Agent**
+- **Masukkan IP dari Wazuh Manager**
+- **Buat nama agent anda**
+- **Jalankan Script yang digenerate oleh Wazuh pada Endpoint**
+Contohnya :
+```
+wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.12.0-1_amd64.deb && sudo WAZUH_MANAGER='1' dpkg -i ./wazuh-agent_4.12.0-1_amd64.deb
+```
+- **Mulai Agent pada Endpoint**
+```
+sudo systemctl daemon-reload
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
+```
+
 
 
