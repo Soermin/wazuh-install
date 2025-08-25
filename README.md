@@ -10,8 +10,8 @@ Although it is free, Wazuh is one of the security platforms worth considering. O
 - **Open Source :** Wazu#h can be used without a license fee, being an option by many users because it is very complete and does not need to incur high costs.
 
 
-## Spesifikasi ksatik > Ini Minimum:
-- **CPU:** 2 inti
+## Minimum Spesification:
+- **CPU:** 2 core
 - **RAM:** 4 GB
 - **Penyimpanan:** 20 GB
 
