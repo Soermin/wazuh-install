@@ -1,20 +1,21 @@
 # Install Wazuh Server - OS Ubuntu 22.04
 
-Wazuh menyediakan installation assistant yang menyederhanakan proses instalasi komponen server, termasuk Wazuh Manager, Elasticsearch dan Wazuh Dashboard.
+Wazuh provides an installation assistant that simplifies the process of installing server components, including the Wazuh Manager, Elasticsearch, and the Wazuh Dashboard.
 
-## 1. Unduh dan jalankan wazuh installation assistant
+## 1. Download and Run the Wazuh Installation Assistant
 ```
 curl -sO https://packages.wazuh.com/4.12/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
 ```
-## 2. Tunggu Proses Instalasi
-Script tersebut akan langsung otomatis :
-- Memeriksa sistem dan melakukan depedensi
-- Menginstal semua komponen
-- Mengatur Konfigurasi dasar
-Waktu instalasi tergantung koneksi internet dan spesifikasi sistem (Biasanya 5-15 menit).
+## 2. Wait for the Installation Process
+The script will automatically:
+- Check the system and install dependencies
+- Install all required components
+- Configure basic settings  
 
-## 3. Akses User & Password
-Setelah instalasi selesai, wazuh akan menghasilkan output berupa user dan password yang nantinya diperlukan untuk login ke Wazuh-Dashboard. 
+The installation time depends on the internet connection and system specifications (usually 5–15 minutes).
+
+## 3. Access User & Password
+After the installation is complete, Wazuh will output the user and password needed to log in to the Wazuh Dashboard:
 ```
 INFO: --- Summary ---
 INFO: You can access the web interface https://<WAZUH_DASHBOARD_IP_ADDRESS>
@@ -22,19 +23,20 @@ INFO: You can access the web interface https://<WAZUH_DASHBOARD_IP_ADDRESS>
     Password: <ADMIN_PASSWORD>
 INFO: Installation finished.
 ```
-Kita bisa mnecari password, jika seandainya anda lupa di file _wazuh-password.txt_ yang ada didalam _wazuh-install-files.tar_. Dapat menggunakan perintah berikut :
+If you forget the password, it can be found in the file _wazuh-password.txt_ inside _wazuh-install-files.tar_. Use the following command:
 ```
 sudo tar -O -xvf wazuh-install-files.tar wazuh-install-files/wazuh-passwords.txt
 ```
 
-## 4. Akses Wazuh Dashboard 
-Buka browser dan akses melalui :
+## 4. Access the Wazuh Dashboard
+Open your browser and access it via:
+
 ```
 https://<ip-address-wazuh-server>
 ```
 
-## 💡 Tips Tambahan:
-Setelah berhasil menginstall Wazuh anda bisa mengganti password kredensial dengan perintah berikut :
+## 💡 Additional Tips
+After successfully installing Wazuh, you can change the default credential password using the following command:
 ```
 /usr/share/wazuh-dashboard/plugins/wazuh/wazuh-passwords-tool.sh
 ```
