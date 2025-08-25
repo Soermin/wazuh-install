@@ -1,24 +1,22 @@
 # Wazuh Open Source Project 
-Wazuh merupakan platform keamanan siber dengan sumber terbuka atau open source yang menyediakan solusi SIEM (Security Information and Even Management) dan XDR (Extended Detection and Response). Singkatnya, Wazuh ini membantu kita dalam memantau, mendeteksi dan merespon ancaman keamanan dengan mengumpulkan, menganalisis dan mengelola log dari berbabagai sumber. 
+Wazuh is an open source cybersecurity platform that provides SIEM (Security Information and Even Management) and XDR (Extended Detection and Response) solutions. In short, this Wazuh helps us in monitoring, detecting and responding to security threats by collecting, analyzing and managing logs from various sources.
 
 ![image 164](https://github.com/user-attachments/assets/8bbfe147-b102-4aa1-a5da-e9f2c7428bcb)
 
 
-Meskipun gratis, Wazuh menjadi salah satu platform keamanan yang patut dipertimbangkan. Salah satu alasannya adalah: 
-- **Skalabilitas Tinggi :** Cocok untuk mengelola banyak agent (endpoint) dengan performa yang sangat efisien
-- **Integrasi yang Fleksibel :** Mudah diintegrasikan dengan tools keamanan siber lainnya untuk memperkuat layer keaman Tim SOC.
-- **Open Source :** Wazu#h dapat digunakan tanpa biaya lisensi, menjadi pilihan oleh banyak pengguna karena sangat lengkap dan tidak perlu mengeluarkan biaya yang tinggi.
+Although it is free, Wazuh is one of the security platforms worth considering. One reason is: 
+- **High Scalability :** Suitable for managing many agents (endpoints) with very efficient performance
+- **Flexible integration :** Easily integrated with other cybersecurity tools to strengthen the safety layer of the SOC Team.
+- **Open Source :** Wazu#h can be used without a license fee, being an option by many users because it is very complete and does not need to incur high costs.
 
 
-## 🖥️ Spesifikasi Hardware Minimum:
-- **CPU :** 2 core
-- **RAM :** 4 GB
-- **Storage :** 20 GB
+## Spesifikasi ksatik > Ini Minimum:
+- **CPU:** 2 inti
+- **RAM:** 4 GB
+- **Penyimpanan:** 20 GB
 
 
-Jika ada kendala, pastikan untuk selalu membaca/mengakses dokumentasi resmi : https://documentation.wazuh.com/
+If there are any obstacles, be sure to always read/access official documentation: https://documentation.wazuh.com/
 
-Terima kasih telah menggunakan panduan ini. Semoga bermanfaat! 🙌
-
-
+Thank you for using this guide. Good luck! 🙌
 
